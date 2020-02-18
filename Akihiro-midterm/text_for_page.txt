@@ -1,0 +1,38 @@
+Ponta's Page
+
+Ponta!
+A Fuzzy Shiba Inu!
+
+Montgomery Pontavedra Samadi Poza
+
+Here are some of the requirements for this take-home test. You must create a page which looks most like this page image! Begin by changing the name of the test folder to have your name instead of "yourname". This homework must be ready to submit in class by the start of class on Thursday. Come to the lab early and make sure that you are ready to put it into the ART 280 folder after I create a special folder for you to put it in!
+
+
+Create an HTML page with all the necessary parts that we have learned. Create a CSS stylesheet with all the CSS rules. Create a link tag which connects the HTML page to the CSS page.
+
+Resize the images of Ponta (ONLY pontafloor and pontapark) to be 400px by 300px. Remove the original images from the folder after you have done this.
+
+Keep the furbg.jpg picture at the current size, and set it as the body background image; set the image so that it covers the whole page and does not repeat even if the browser window is greatly resized.
+
+Make the layout "jello," and make the wrapper id 1000px wide. The wrapper should appear in the center of the page, not on the left.
+
+The h1 tag will be Abril fatface 54pt; the h2 tag will be Oswald. All other text will be Raleway.
+
+The colors used in the wrapper are black, white, rgb(250,230,190) and rgb(200,100,0).
+
+The nav buttons are 250px wide, with 10px top & bottom padding, with 15pt bold Raleway text. The link area must be equal to the button area.
+
+Adjust the margins and the padding of various tags to create the spacing you see, especially between the h1 and h2 tags, and between the text and the edge of the wrapper.
+
+Make sure to follow all the rules we learned in class. Include a title that appears in the browser tab, as well as your name as the author and after the copyright.
+
+
+
+Make the left and right-top corners of the nav buttons curve exactly as you see them
+
+
+Create the 5px brown line beneath the nav buttons (use the box-shadow to create it!)
+
+Center the two images of Ponta without centering anything else in the main.
+
+Re-create all the bold text in the instructions.
