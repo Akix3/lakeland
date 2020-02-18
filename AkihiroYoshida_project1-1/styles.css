@@ -1,39 +1,45 @@
 body{
+	background-image: url(image/docomotower.jpg);
+}
+
+#wrapper{
+	width: 1000px;
+	border: 2px solid black;
+	margin: 0 auto;
 	background-color: white;
+}
+
+header, nav, main, footer{
+	padding: 1px 30px;
+}
+
+header, nav{
+	background-color: darkslategray;
+	color: white;
 	font-family: 'Montserrat', sans-serif;
 }
 
-.container{
-	padding: 0 15px;
-	margin: 0 auto;
-}
-
-header{
-	background-image: url(image/docomotower.JPG);
-	background-size: cover;
-	height:1100px;
-	padding: 20px;
-}
-
-.header-txt{
-	height: 75px;
-	background-color: rgba(255, 255, 255, 0.8);
-	width:100%;
-	position:fixed;
-	top: 0;
-	left: 0;
-	padding: 0 15px;
-	display: flex;
+header h1, h2{
+	text-align: center;
+	margin: 10px auto;
 }
 
 header h1{
-	font-size: 40px;
+	margin: 25px auto 25px auto;
 }
 
-header h2{
-	font-weight: normal;
-	font-size: 25px;
-	padding: 19px;
+header h1 a{
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+	border: 3px double white;
+	padding: 5px 10px;
+}
+
+header h1 a:hover{
+	background-color: white;
+	color:darkslategray;
+	transition: 0.5s;
 }
 
 nav{
@@ -41,81 +47,51 @@ nav{
 }
 
 nav ul li{
-	border: 1px solid black;
-	width: 280px;
 	display: inline-block;
 	text-align: center;
-	margin: 5px 5px;
-	background-color: lightblue;
-}
-
-a{
-	text-decoration: none;
-	color: black;
-	display: inline-block;
+	background-color: teal;
+	margin: 0 5px;
 }
 
 nav ul li a{
-	width: 280px;
-	padding: 5px 0;
+	text-decoration: none;
+	color: white;
+	display : inline-block;
+	width: 230px;
+	text-align: center;
+	padding: 5px 15px;
 }
 
-img{
-	width: 450px;
-	height: 300px;
+nav ul li a:hover{
+	background-color: white;
+	color:teal;
+	transition: 0.5s;
+}
+
+h3{
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 25px;
+	margin-bottom: 0;
 }
 
 p{
-	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
 }
 
-li{
-	font-size: 18px;
-	list-style-type: none;
+.text-wrapper{
+	width: 57%;
+	float: left;
 }
 
-.title{
-	background-color: darkslategray;
-	color: white;
-	padding: 10px 20px;
-	font-family: 'Montserrat Subrayada', sans-serif;
+img{
+	width: 40%;
+	float: right;
 }
 
-.subtitle{
-	background-color: teal;
-	color: white;
-	padding: 5px 0;
-	width: 200px;
-	text-align: center;
-	font-weight: normal;
-	font-family: 'Montserrat Subrayada', sans-serif;
-}
-
-.imformation-wrapper{
-	padding-bottom: 10px;
-	border-bottom: 5px double black;
-}
-
-.fee-wrapper{
-	border-bottom:1px solid lightblue;
-}
-
-.open-wrapper{
-	border-bottom:1px solid lightblue;
-}
-
-.history-txt{
-	display: flex;
-}
-
-.access{
-	display: flex;
-}
-
-.access img{
-	padding-left: 40px;
-}
 .clear{
-	clear:left;
-	clear:right;
+	clear: both;
+}
+
+footer{
+	border-top: 3px double black;
 }
