@@ -1,5 +1,7 @@
 body{
 	background-image: url(image/docomotower.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 #wrapper{
@@ -57,7 +59,7 @@ nav ul li a{
 	text-decoration: none;
 	color: white;
 	display : inline-block;
-	width: 230px;
+	width: 250px;
 	text-align: center;
 	padding: 5px 15px;
 }

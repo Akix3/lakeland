@@ -1,0 +1,76 @@
+body{
+	background-image: url(images/furbg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#wrapper{
+	width: 1000px;
+	margin: auto;
+	background-color: white;
+}
+
+header, nav{
+	background-color: rgb(250, 230, 190);
+	padding: 1px 30px;
+}
+
+header h1{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 54pt;
+	margin: 0 0 10px 0;
+}
+
+header h1 a{
+	text-decoration: none;
+	color: black;
+}
+
+header h2{
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+}
+
+nav{
+	border-bottom: 1px solid rgb(200, 100, 0);
+}
+
+nav ul{
+	text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: rgb(200, 100, 0);
+	font-family: "Raleway", sans-serif;
+	font-size: 15pt;
+	font-weight: bold;
+	background-color: white;
+	display: inline-block;
+	width: 250px;
+	padding: 10px 0;
+	text-align: center;
+	border: 1px solid black;
+	box-shadow: 0 5px rgb(200, 100, 0);
+}
+
+.habits{
+	border-top-left-radius: 25px;
+}
+
+.travel{
+	border-top-right-radius: 25px;
+}
+
+main{
+	padding: 0 30px;
+	font-family: "Raleway", sans-serif;
+}
+
+.image-wrapper{
+	text-align: center;
+}
