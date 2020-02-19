@@ -1,12 +1,12 @@
 body{
 	background-image: url(images/furbg.jpg);
-	background-size: cover;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 #wrapper{
 	width: 1000px;
-	margin: auto;
+	margin: 30px auto;
 	background-color: white;
 }
 
@@ -73,4 +73,11 @@ main{
 
 .image-wrapper{
 	text-align: center;
+}
+
+footer{
+	border-top: 1px solid rgb(200, 100, 0);
+	padding: 1px 30px;
+	background-color: rgb(250, 230, 190);
+	font-family: "Raleway", sans-serif;
 }
