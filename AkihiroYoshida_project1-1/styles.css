@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada&display=swap');
+
 body{
-	background-image: url(image/docomotower.jpg);
-	background-size: cover;
-	background-attachment: fixed;
+	background-color: lightseagreen;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #wrapper{
 	width: 1000px;
-	border: 2px solid black;
-	margin: 0 auto;
+	border: 1px solid darkslategray;
+	margin: 20px auto;
 	background-color: white;
 }
 
@@ -15,10 +16,13 @@ header, nav, main, footer{
 	padding: 1px 30px;
 }
 
+
+
+/* HEADER-PART */
+
 header, nav{
 	background-color: darkslategray;
 	color: white;
-	font-family: 'Montserrat', sans-serif;
 }
 
 header h1, h2{
@@ -44,15 +48,12 @@ header h1 a:hover{
 	transition: 0.5s;
 }
 
-nav{
-	text-align: center;
-}
-
 nav ul li{
 	display: inline-block;
 	text-align: center;
 	background-color: teal;
 	margin: 0 5px;
+	box-shadow: 2px 4px rgb(49, 49, 49);
 }
 
 nav ul li a{
@@ -65,35 +66,82 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	background-color: white;
-	color:teal;
+	color: teal;
 	transition: 0.5s;
 }
 
-h3{
+nav ul li:hover{
+	background-color: white;
+	transition: 0.5s;
+}
+
+nav ul li:active{
+	position: relative;
+	top: 4px;
+	left: 2px;
+	box-shadow: none;
+}
+
+
+
+/* MAIN-PART */
+
+.image-wrapper{
+	float: right;
+	width: 40%;
+	clear: right;
+}
+
+img{
+	width: 100%;
+	padding: 30px 25px 0 0;
+}
+
+.text-wrapper{
+	width: 57%;
+}
+
+.page-title{
 	font-family: 'Montserrat Subrayada', sans-serif;
 	font-size: 25px;
 	margin-bottom: 0;
 }
 
-p{
-	font-family: 'Montserrat', sans-serif;
+.title-1{
+	background-color: darkslategray;
+	color: white;
+	padding: 5px 10px;
 }
 
-.text-wrapper{
-	width: 57%;
-	float: left;
+.title-2{
+	background-color: teal;
+	color: white;
+	padding: 5px 10px;
+	width: 220px;
+	margin-left:10px
 }
 
-img{
-	width: 40%;
-	float: right;
+main p{
+	margin-left: 35px;
 }
 
-.clear{
-	clear: both;
+b{
+	text-decoration-line: underline;
 }
+
+#index main ul li{
+	list-style-type: none;
+}
+
+
+
+/* FOOTER-PART */
 
 footer{
-	border-top: 3px double black;
+	background-color: darkslategray;
+	color: white;
+}
+
+footer p{
+	margin: 7px 0;
 }
