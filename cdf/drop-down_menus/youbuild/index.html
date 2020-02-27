@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Title
+        </title>
+        <meta charset="UTF-8">
+        <meta name="author" content="yourname">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .group {
+                /* widthがないと.group要素が横に広がってしまう。 縦に展開させたいから、widthで縛ってその中だけで表示させる。*/
+                width: 152px;
+                /* stop changing the height when cursor is hovering */
+                height: 25px;
+                /* .groupを横に並べる （無いと縦にSimple, Fading, Expandingが並ぶ）*/
+                float: left;
+                /* テキストと重なったときに、上に来るようにする。　z-indexでも可。 */
+                position: relative;
+            }
+
+            .group .drop{
+                display: none;
+            }
+
+            .group:hover .drop{
+                display: inline-block;
+                border-top: 1px solid white;
+                visibility: visible;
+                height: 27px;
+                transition: 1s;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>
+                    <a href="#">Ponta's Site</a>
+                </h1>
+                <h2>
+                    A Doggie About the Town
+                </h2>
+            </header>
+            <nav>
+                <ul>
+                    <div class="group">
+                        <li><a href="index.html">Simple</a></li>
+                    </div>
+                    <div class="group">
+                        <li><a href="drop2.html">Fading</a></li>
+                        <li class="drop"><a href="#">Two</a></li>
+                        <li class="drop"><a href="#">Two</a></li>
+                        <li class="drop"><a href="#">Two</a></li>
+                        <li class="drop"><a href="#">Two</a></li>
+                    </div>
+                    <div class="group">
+                        <li><a href="drop3.html">Expanding</a></li>
+                        <li class="drop"><a href="#">Three</a></li>
+                        <li class="drop"><a href="#">Three</a></li>
+                        <li class="drop"><a href="#">Three</a></li>
+                    </div>
+                </ul>
+                <br style="clear: both;">
+            </nav>
+            <main>
+                <h3 class="cent">
+                    A Site for Ponta!
+                </h3>
+                
+                
+                <img src="images/ponta.jpg" alt="Ponta running on grass" class="lefty"">
+                <p>
+                    Lorem ipsum dolor sit amet, pri debet mucius erroribus in, nec alterum scripserit ea, at sit eruditi labores. His fugit semper admodum id, at est clita reprimique. Ne antiopam definiebas mei. Mediocrem pertinacia ut eam, ea illud homero principes sit. In sit viderer delenit, in aperiam repudiare nam, habeo labitur eu vis. Illud dicant ex mel, inani legimus ea ius.
+                </p>
+                <p>
+                    Utamur oblique dissentiet cu vim, his an duis possit accusata. Quem labores ad qui, aliquam mentitum sit ei. No ius solum scaevola voluptaria, sed liber dicit ea. Per idque theophrastus an, etiam democritum cu sea. Oblique ancillae accusata sit ea. Numquam ponderum invidunt cu qui, eam homero accusam quaerendum eu. Alterum antiopam id nam, in usu vivendum postulant.
+                </p>
+                <p>
+                    Cibo pericula molestiae quo an. Ex sea dico delenit atomorum, ei vocibus patrioque mel. Invidunt accommodare eam ad. An vim agam conclusionemque, intellegat temporibus pro in. Sea aeque assentior voluptatum an, cu pertinax comprehensam per, quo error quando expetenda cu. Et duo aperiam legendos, ea nullam malorum eripuit vix, diceret gloriatur vis ad.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, pri debet mucius erroribus in, nec alterum scripserit ea, at sit eruditi labores. His fugit semper admodum id, at est clita reprimique. Ne antiopam definiebas mei. Mediocrem pertinacia ut eam, ea illud homero principes sit. In sit viderer delenit, in aperiam repudiare nam, habeo labitur eu vis. Illud dicant ex mel, inani legimus ea ius.
+                </p>
+                <img src="images/pon.jpg" alt="Ponta smiling" class="righty"">
+                <p>
+                    Utamur oblique dissentiet cu vim, his an duis possit accusata. Quem labores ad qui, aliquam mentitum sit ei. No ius solum scaevola voluptaria, sed liber dicit ea. Per idque theophrastus an, etiam democritum cu sea. Oblique ancillae accusata sit ea. Numquam ponderum invidunt cu qui, eam homero accusam quaerendum eu. Alterum antiopam id nam, in usu vivendum postulant.
+                </p>
+                <p>
+                    Cibo pericula molestiae quo an. Ex sea dico delenit atomorum, ei vocibus patrioque mel. Invidunt accommodare eam ad. An vim agam conclusionemque, intellegat temporibus pro in. Sea aeque assentior voluptatum an, cu pertinax comprehensam per, quo error quando expetenda cu. Et duo aperiam legendos, ea nullam malorum eripuit vix, diceret gloriatur vis ad.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, pri debet mucius erroribus in, nec alterum scripserit ea, at sit eruditi labores. His fugit semper admodum id, at est clita reprimique. Ne antiopam definiebas mei. Mediocrem pertinacia ut eam, ea illud homero principes sit. In sit viderer delenit, in aperiam repudiare nam, habeo labitur eu vis. Illud dicant ex mel, inani legimus ea ius.
+                </p>
+
+
+
+
+
+            </main>
+            <footer>
+                <p>
+                    &copy; 2017 Luis Poza
+                </p>
+            </footer>
+        </div>
+            </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Title
+        </title>
+        <meta charset="UTF-8">
+        <meta name="author" content="yourname">
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+        <style>
+            nav ul li {
+                width: 150px;
+                text-align: center;
+                list-style-type: none;
+                font-family: 'Oswald', sans-serif;
+                background-color: rgb(200,210,235);
+                
+                 /* BEGIN SPECIAL MENU CSS */
+                
+                height: 25px;
+                position: relative;
+                float: left;
+            }
+            .group {
+                width: 152px;
+                height: 25px;
+                float: left;
+                margin-left: 1px;
+                margin-right: -2px;
+            }
+            .group .drop {
+                visibility: hidden;
+                opacity: 0;
+                border-top: 1px solid rgb(255,255,255);
+                transition: 0.3s;
+            }
+            .group:hover .drop {
+                visibility: visible;
+                opacity: 1;
+                transition: 0.3s;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>
+                    Fading Drop Menus
+                </h1>
+                <h2>
+                    Still Pretty Short
+                </h2>
+            </header>
+            <nav>
+                <ul>
+                    <a href="dropmenu.html"><li>Simple</li></a>
+                    <div class="group">
+                        <a href="drop2.html"><li>Fading</li></a>
+                        <a href="#"><li class="drop">Two</li></a>
+                        <a href="#"><li class="drop">Two</li></a>
+                        <a href="#"><li class="drop">Two</li></a>
+                        <a href="#"><li class="drop">Two</li></a>
+                        <a href="#"><li class="drop">Two</li></a>
+                    </div>
+                    <div class="group">
+                        <a href="drop3.html"><li>Expanding</li></a>
+                        <a href="#"><li class="drop">Three</li></a>
+                        <a href="#"><li class="drop">Three</li></a>
+                        <a href="#"><li class="drop">Three</li></a>
+                    </div>
+                </ul>
+                <br style="clear: both;">
+            </nav>
+            <main>
+                <h3>
+                    The Beginning Part
+                </h3>
+                
+                <p>
+                    Lorem ipsum dolor sit amet, pri debet mucius erroribus in, nec alterum scripserit ea, at sit eruditi labores. His fugit semper admodum id, at est clita reprimique. Ne antiopam definiebas mei. Mediocrem pertinacia ut eam, ea illud homero principes sit. In sit viderer delenit, in aperiam repudiare nam, habeo labitur eu vis. Illud dicant ex mel, inani legimus ea ius.
+                </p>
+                
+                <blockquote>
+                    "Oblique ancillae accusata sit ea. Numquam ponderum invidunt cu qui, eam homero accusam quaerendum eu. Alterum antiopam id nam, in usu vivendum postulant."
+                </blockquote>
+                
+                <p>
+                    Cibo pericula molestiae quo an. Ex sea dico delenit atomorum, ei vocibus patrioque mel. Invidunt accommodare eam ad. An vim agam conclusionemque, intellegat temporibus pro in. Sea aeque assentior voluptatum an, cu pertinax comprehensam per, quo error quando expetenda cu. Et duo aperiam legendos, ea nullam malorum eripuit vix, diceret gloriatur vis ad.
+                </p>
+            </main>
+            <footer>
+                <p>
+                    &copy; 2015 Luis Poza
+                </p>
+            </footer>
+        </div>
+        
+    </body>
+</html>

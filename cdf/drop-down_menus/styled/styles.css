@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    background-color: #eef5ff;
+}
+#wrapper {
+    width: 800px;
+    margin: 20px auto 60px;
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: #ffffff;
+}
+main {
+    margin-top: 20px;
+}
+footer {
+    margin-top: 40px;
+    border-top: 1px solid rgb(210,210,210);
+    text-align: right;
+    font-size: 9pt;
+    font-style: italic;
+}
+nav ul {
+    padding-left: 0px;
+}
+nav a {
+    color: rgb(0,0,0);
+}
+nav li:hover {
+    background-color: rgb(240,240,255);
+}
