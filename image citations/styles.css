@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:100,300,400,700,900|Oswald:200,300,400,500,600,700|Raleway:100,300,400,500,700,900&display=swap');
+
+body {
+    margin: 0px;
+    background-color: rgb(150,200,255);
+    font-family: 'Raleway', sans-serif;
+}
+#wrapper {
+    width: 900px;
+    margin: 20px auto 60px;
+    border: 1px solid gray;
+    background-color: rgb(255,255,255);
+}
+header, nav, main, footer {
+    padding: 1px 30px;
+}
+header, nav {
+    padding: 1px 50px;
+    background-color: rgb(250,230,190);
+}
+h1 {
+    margin: 20px 0px 0px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 34pt;
+}
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+h2 {
+    margin: 10px 0px 0px;
+    font-family: 'Exo', sans-serif;
+}
+nav {
+    border-bottom: 1px solid rgb(210,150,50);
+}
+nav ul {
+    padding: 0px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0px;
+    background-color: rgb(255,255,255);
+}
+nav ul li a {
+    display: inline-block;
+    width: 140px;
+    padding: 5px;
+    text-decoration: none;
+}
+main {
+    min-height: 400px;
+}
+footer {
+    clear: both;
+    border-top: 1px solid rgb(210,150,50);
+}
