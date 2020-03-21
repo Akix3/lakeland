@@ -1,0 +1,21 @@
+#wrapper {
+    width: 700px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 50px;
+}
+p, blockquote {
+    padding: 0px 10px 10px;
+}
+p {
+    border: 2px solid red;
+}
+blockquote {
+    border: 2px solid blue;
+}
+p:before {
+    content: "P"; color: red; font-family: 'Impact'; font-size: 20pt;
+}
+blockquote:before {
+    content: "B"; color: blue; font-family: 'Impact'; font-size: 20pt;
+}

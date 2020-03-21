@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text|Noto+Serif+TC&display=swap');
+
+/* 
+KAGAGOSAI(加賀五彩)
+	藍
+	background-color: rgb(19,74,99);
+	臙脂
+	background-color: rgb(159, 59, 66);
+	黄土
+	background-color: rgb(184, 136, 59);
+	草
+	background-color: rgb(98, 120, 66);
+	古代紫
+	background-color: rgb(112, 76, 115); 
+*/
+
+body{
+	/* Japanese Traditional Culture */
+	background-color: rgb(112, 76, 115);
+	/* Westernized Culture */
+	background-color: rgb(159, 59, 66);
+	/* Modern Culture */
+	background-color: rgb(98, 120, 66);
+	/* TOP */
+	background-color: rgb(19,74,99);
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+}
+
+#two{
+	background-color: rgb(112, 76, 115);
+}
+
+#three{
+	background-color: rgb(159, 59, 66);
+}
+
+#wrapper{
+	background-color: cornsilk;
+	width: 1000px;
+	margin: 20px auto;
+	outline: 3px solid rgb(184, 136, 59);
+	border: 2px solid black;
+	font-family: 'Noto Serif TC';
+}
+
+header, nav, main, footer{
+	padding: 10px 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+
+/* 
+
+HEADER PART 
+
+*/
+header{
+	font-family: 'DM Serif Text';
+	background-color: rgb(184, 136, 59);
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+
+header h1 a{
+	display: inline-block;
+	padding: 10px 0;
+	width: 450px;
+	border: 4px double black;
+	background-color: rgb(19,74,99);
+	color: white;
+}
+
+.h1-2{
+	color: rgb(19,74,99);;
+	display: none;
+}
+
+header h1 a:hover{
+	background-color: cornsilk;
+	transition: 2s;
+}
+
+header h1 a:hover .h1-1{
+	display: none;
+}
+
+header h1 a:hover .h1-2{
+	display: inline-block;
+}
+
+
+
+
+/* 
+
+NAV PART 
+
+*/
+nav{
+	height: 190px;
+	background-image: url(images/nav.jpg);
+	background-size: cover;
+}
+
+nav ul li{
+	width: 270px;
+	text-align: center;
+	list-style-type: none;
+	float: left;
+	position: relative;
+	height: 45px;
+}
+
+.group{
+	float: left;
+	width: 270px;
+	height: 45px;
+	margin: 0 10px;
+}
+
+.group .drop{
+	visibility: hidden;
+	height: 0px;
+	opacity: 0;
+}
+
+.group:hover .drop{
+	transition: 0.7s;
+	visibility: visible;
+	height: 45px;
+	opacity: 1;
+}
+
+nav ul li a{
+	color: white;
+	display: inline-block;
+	width: 270px;
+	height: 25px;
+	padding: 10px 0;
+}
+
+.jpn{
+	background-color: rgba(112, 76, 115, 0.8);
+}
+
+.jpn:hover{
+	background-color: rgba(112, 76, 115, 1);
+	transition: 0.7s;
+}
+
+.west{
+	background-color: rgba(159, 59, 66, 0.8);
+}
+
+.west:hover{
+	background-color: rgba(159, 59, 66, 1);
+	transition: 0.7s;
+}
+
+.mode{
+	background-color: rgba(98, 120, 66, 0.8);
+}
+
+.mode:hover{
+	background-color: rgba(98, 120, 66, 1);
+	transition: 0.7s;
+}
+
+
+
+
+/* 
+
+MAIN PART 
+
+*/
+h3{
+	color: white;
+	padding: 10px 20px;
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+}
+
+#template h3{
+	background-color: rgb(19,74,99);
+}
+
+#two h3{
+	background-color: rgb(112, 76, 115);
+}
+
+#three h3{
+	background-color: rgb(159, 59, 66);
+}
+
+.txt-wrapper{
+	margin: 0 20px;
+}
+
+.txt1{
+	padding-bottom: 15px;
+	border-bottom: 1px solid black;
+}
+
+h4 a{
+	display: inline-block;
+	color: white;
+	padding: 8px 15px;
+	width: 300px;
+}
+
+h4{
+	width: 330px;
+	opacity: 0.9;
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+}
+
+h4:hover{
+	opacity: 1;
+	transition: 0.7s;
+}
+
+#template h4{
+	background-color: rgb(19,74,99);
+}
+
+#two h4{
+	background-color: rgb(112, 76, 115);
+}
+
+#three h4{
+	background-color: rgb(159, 59, 66);
+	color: white;
+	opacity: 1;
+	padding: 8px 15px;
+}
+
+img{
+	width: 300px;
+	float: right;
+	margin-left: 30px;
+}
+
+.img-btn:hover{
+	opacity: 0.7;
+	transition: 0.7s;
+}
+
+
+
+
+/* 
+
+THREE MAIN PART 
+
+*/
+article{
+	width: 620px;
+	float: left;
+	padding-right: 10px;
+	border-right: 1px solid black;
+}
+
+article h4{
+	width: 95%;
+}
+
+aside{
+	width: 320px;
+	float: right;
+}
+
+aside h4{
+	width: 85%;
+	margin: 20px auto;
+}
+
+aside img{
+	width: 100%;
+	margin: 20px 0;
+}
+
+
+
+
+/* 
+
+FOOTER PART 
+
+*/
+footer{
+	background-color: rgb(184, 136, 59);
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+	border-top: 2px solid black;
+	padding: 1px;
+	text-align: center;
+}
