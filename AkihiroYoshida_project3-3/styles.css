@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Codystar|Fredericka+the+Great|Lato&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background-image: url(images/background-img.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Inter', sans-serif;
+}
+
+
+.wrapper{
+	width: 1100px;
+	margin: 0 auto;
+	padding: 15px 0px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clear{
+	clear: both;
+}
+
+.space{
+	margin-top: 10px;
+}
+
+.btn{
+	opacity: 0.85;
+}
+
+.btn:hover{
+	opacity: 1;
+	transition: 0.7s;
+}
+
+
+
+/* HEADER PART */
+
+header h2{
+	background-color: seagreen;
+	text-align: center;
+	color: white;
+	font-family: 'Codystar', cursive;
+	padding: 10px 0px;
+	font-size: 30px;
+}
+
+.header-img{
+	width: 100%;
+}
+
+
+
+/* NAV PART */
+
+nav{
+	width: 100%;
+	height: 45px;
+	padding: 0 1px;
+}
+
+nav ul{
+	list-style: none;
+	width: 1098px;
+}
+
+nav ul li{
+	width: 366px;
+	text-align: center;
+	list-style-type: none;
+	float: left;
+	position: relative;
+	height: 45px;
+}
+
+.group{
+	float: left;
+	width: 366px;
+	height: 45px;
+}
+
+.group .drop{
+	visibility: hidden;
+	height: 0px;
+	opacity: 0;
+}
+
+.group:hover .drop{
+	border-top: 1px dotted white;
+	transition: 0.7s;
+	visibility: visible;
+	height: 44px;
+	opacity: 1;
+}
+
+nav ul li a{
+	color: white;
+	display: inline-block;
+	width: 100%;
+	font-size: 21px;
+	line-height: 21px;
+	padding: 12px 0;
+}
+
+.group .aizu{
+	background-color:#545454;
+}
+
+.group .naka{
+	background-color: #5271ff;
+	color: black;
+}
+
+.group .hama{
+	background-color: cadetblue;
+}
+
+
+
+
+
+
+/* 
+
+MAIN PART 
+
+*/
+
+main{
+	background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+	padding: 15px 30px;
+}
+
+.page-title{
+	height: 300px;
+	background-size: cover;
+	text-align: right;
+	font-size: 35px;
+	text-shadow: 1px 2px 4px black;
+	line-height: 300px;
+	padding-right: 100px;
+	color: white;
+}
+
+#top .page-title{
+	background-image: url(images/pt-ggearth.jpg);
+}
+
+#aizu .page-title{
+	background-image: url(images/aizu-btn.jpg);
+	text-align: left;
+	padding-left: 100px;
+}
+
+#wakamatsu .page-title{
+	background-image: url(images/aizu-btn.jpg);
+	text-align: left;
+	padding-left: 100px;
+}
+
+#ouchijyuku .page-title{
+	background-image: url(images/three-ouchi.jpg);
+	text-align: left;
+	padding-left: 100px;
+}
+
+#nakadori .page-title{
+	background-image: url(images/naka-btn.jpg);
+	text-align: left;
+	padding-left: 100px;
+}
+
+#koriyama .page-title{
+	background-image: url(images/naka-btn.jpg);
+	text-align: left;
+	padding-left: 100px;
+}
+
+#inawashiro .page-title{
+	background-image: url(images/inawashiro2.jpg);
+	text-align: left;
+	padding-left: 100px;
+}
+
+#hamadori .page-title{
+	background-image: url(images/hama.jpg);
+}
+
+#iwaki .page-title{
+	background-image: url(images/hama.jpg);
+}
+
+.txt-wrapper{
+	margin: 10px 0;
+}
+
+main h3{
+	margin: 10px 0;
+	background-color: rgba(255, 255, 255, 0.3);
+	text-align: center;
+}
+
+main p{
+	padding-bottom: 10px;
+}
+
+
+
+
+
+/* 
+
+TOP MAIN PART 
+
+*/
+
+#top .txt-wrapper{
+	float: left;
+	width: 55%;
+}
+
+#top .ggmap{
+	float: right;
+	width: 40%;
+	margin: 10px 0;
+}
+
+#top iframe{
+	width: 100%;
+}
+
+
+
+
+/* 
+
+TWO MAIN PART 
+
+*/
+
+.left-wrapper{
+	width: 49%;
+	float: left;
+}
+
+.right-wrapper{
+	width: 49%;
+	float: right;
+}
+
+.dest-title{
+	color: white;
+}
+
+#aizu .dest-title{
+	background-color: #545454;
+}
+
+#nakadori .dest-title{
+	background-color: #5271ff;
+}
+
+#hamadori .dest-title{
+	background-color: cadetblue;
+}
+
+#two main img{
+	width: 80%;
+}
+
+.two-btn{
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+
+/* 
+
+THREE MAIN PART 
+
+*/
+
+article{
+	width:710px;
+	float: left;
+	padding-right: 10px;
+	border-right: 1px solid black;
+}
+
+article img{
+	width: 50%;
+	float: right;
+}
+
+
+aside{
+	width: 310px;
+	float: right;
+	text-align: center;
+}
+
+aside a{
+	display: block;
+	width: 100%;
+}
+
+aside img{
+	width: 100%;
+}
+
+.hotel{
+	margin: 10px auto;
+}
+
+
+/* 
+
+TOP BTN WRAPPER 
+
+*/
+
+.btn-wrapper a{
+	display: block;
+	width: 900px;
+	color: white;
+	padding: 30px 20px;
+	line-height: 50px;
+	text-shadow: 1px 2px 4px black;
+	margin: 5px;
+}
+
+.btn-wrapper h4{
+	font-size: 35px;
+}
+
+.btn-wrapper .btn-aizu{
+	float: left;
+	text-align: center;
+	background-image: url(images/aizu-btn.jpg);
+	background-size: cover;
+}
+
+.btn-wrapper .btn-naka{
+	float: right;
+	text-align: center;
+	background-image: url(images/naka-btn.jpg);
+	background-size: cover;
+}
+
+.btn-wrapper .btn-hama{
+	float: left;
+	text-align: center;
+	background-image: url(images/hama-btn.jpg);
+	background-size: cover;
+}
+
+
+
+/* 
+
+FOOTER PART 
+
+*/
+
+footer{
+	background-color: seagreen;
+	color: white;
+	padding: 5px 30px;
+	text-align: right;
+}
+
+footer a{
+	color: white;
+}
+
+
+
+
+/* 
+
+GALLERY 
+
+*/
+
+.four{
+    position: relative;
+}
+
+.four h3{
+    text-align: center;
+}
+
+.four h4{
+    text-align: left;
+    padding-left: 40px;
+}
+
+.gallery-p p{
+    text-align: right;
+    padding-top: 10px;
+}
+
+.gallerypage{
+    text-decoration: none;
+}
+
+.slider img{
+    width: 200px;
+    height: 150px;
+    padding-left:20px;
+    margin-left: 20px;
+}
+
+.slider p{
+	font-weight: bold;
+    padding-left: 38px;
+}
+
+.slider{
+    width: 250px;
+    height: 500px;
+	border-right: 1px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#imgdisplay{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    background-size: 600px 400px;
+    top: 100px;
+    left: 400px;
+    border: 1px solid black;
+}
+
+.default{
+    background-image: url(images/gallary2/1.jpg);
+}
+
+.pic1{
+    background-image: url(images/gallary2/1.jpg);
+}
+.pic2{
+    background-image: url(images/gallary2/2.jpg);
+}
+.pic3{
+    background-image: url(images/gallary2/3.jpg);
+}
+.pic4{
+    background-image: url(images/gallary2/4.jpg);
+}
+.pic5{
+    background-image: url(images/gallary2/5.jpg);
+}
+.pic6{
+    background-image: url(images/gallary2/6.jpg);
+}
+.pic7{
+    background-image: url(images/gallary2/7.jpg);
+}
+.pic8{
+    background-image: url(images/gallary2/8.jpg);
+}
+.pic9{
+    background-image: url(images/gallary2/9.jpg);
+}
+.pic10{
+    background-image: url(images/gallary2/10.jpg);
+}
+.pic11{
+    background-image: url(images/gallary2/11.jpg);
+}
+.pic12{
+    background-image: url(images/gallary2/12.jpg);
+}
+.pic13{
+    background-image: url(images/gallary2/13.jpg);
+}
+.pic14{
+    background-image: url(images/gallary2/14.jpg);
+}
+.pic15{
+    background-image: url(images/gallary2/15.jpg);
+}
+.pic16{
+    background-image: url(images/gallary2/16.jpg);
+}
+.pic17{
+    background-image: url(images/gallary2/17.jpg);
+}
+.pic18{
+    background-image: url(images/gallary2/18.jpg);
+}
+.pic19{
+    background-image: url(images/gallary2/19.jpg);
+}
+.pic20{
+    background-image: url(images/gallary2/20.jpg);
+}

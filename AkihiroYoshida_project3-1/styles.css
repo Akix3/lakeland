@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background-image: url(images/background-img.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Inter', sans-serif;
+}
+
+
+.wrapper{
+	width: 1100px;
+	margin: 0 auto;
+	padding: 15px 0px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clear{
+	clear: both;
+}
+
+.space{
+	margin-top: 10px;
+}
+
+
+
+/* HEADER PART */
+
+header h2{
+	background-color: seagreen;
+	text-align: center;
+	color: white;
+	font-family: 'Codystar', cursive;
+	padding: 10px 0px;
+	font-size: 30px;
+}
+
+.header-img{
+	width: 100%;
+}
+
+
+
+
+
+/* NAV PART */
+
+nav{
+	width: 100%;
+	height: 45px;
+	padding: 0 1px;
+}
+
+nav ul{
+	list-style: none;
+	width: 1098px;
+}
+
+nav ul li{
+	width: 366px;
+	text-align: center;
+	list-style-type: none;
+	float: left;
+	position: relative;
+	height: 45px;
+}
+
+.group{
+	float: left;
+	width: 366px;
+	height: 45px;
+}
+
+.group .drop{
+	visibility: hidden;
+	height: 0px;
+	opacity: 0;
+}
+
+.group:hover .drop{
+	border-top: 1px dotted white;
+	transition: 0.7s;
+	visibility: visible;
+	height: 44px;
+	opacity: 1;
+}
+
+nav ul li a{
+	color: white;
+	display: inline-block;
+	width: 100%;
+	font-size: 21px;
+	line-height: 21px;
+	padding: 12px 0;
+}
+
+.group .aizu{
+	background-color:#545454;
+}
+
+.group .naka{
+	background-color: #5271ff;
+	color: black;
+}
+
+.group .hama{
+	background-color: cadetblue;
+}
+
+
+
+
+
+
+/* 
+
+MAIN PART 
+
+*/
+
+main{
+	background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+	padding: 15px 30px;
+}
+
+.page-title{
+	background-image:url(images/google-earth.jpg);
+	height: 300px;
+	background-size: cover;
+	text-align: right;
+	font-size: 35px;
+	line-height: 300px;
+	padding-right: 100px;
+	color: white;
+}
+
+.txt-wrapper{
+	margin: 10px 0;
+}
+
+main h3{
+	margin: 10px 0;
+	background-color: rgba(255, 255, 255, 0.3);
+	text-align: center;
+}
+
+main p{
+	padding-bottom: 10px;
+}
+
+
+
+
+
+/* 
+
+TOP MAIN PART 
+
+*/
+
+#top .txt-wrapper{
+	float: left;
+	width: 55%;
+}
+
+#top .ggmap{
+	float: right;
+	width: 40%;
+	margin: 10px 0;
+}
+
+#top iframe{
+	width: 100%;
+}
+
+
+
+
+
+/* 
+
+BTN WRAPPER 
+
+*/
+
+.btn-wrapper a{
+	display: block;
+	width: 900px;
+	color: white;
+	padding: 30px 20px;
+	line-height: 50px;
+	text-shadow: 1px 2px 4px black;
+	margin: 5px;
+}
+
+.btn-wrapper h4{
+	font-size: 35px;
+}
+
+.btn-wrapper .btn-aizu{
+	float: left;
+	text-align: center;
+	background-image: url(images/aizu-btn.jpg);
+	background-size: cover;
+}
+
+.btn-wrapper .btn-naka{
+	float: right;
+	text-align: center;
+	background-image: url(images/naka-btn.jpg);
+	background-size: cover;
+}
+
+.btn-wrapper .btn-hama{
+	float: left;
+	text-align: center;
+	background-image: url(images/hama-btn.jpg);
+	background-size: cover;
+}
+
+
+
+/* 
+
+FOOTER PART 
+
+*/
+
+footer{
+	background-color: seagreen;
+	color: white;
+	padding: 5px 30px;
+	text-align: right;
+}
